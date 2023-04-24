@@ -22,9 +22,9 @@ To use the Unsplash Infinite Scroll Gallery, simply enter a search query into th
 
 ## Technologies Used
 
--HTML
--CSS
--JavaScript
--Unsplash API
+- HTML
+- CSS
+- JavaScript
+- Unsplash API
 
 I hope you enjoy exploring this project as much as I enjoyed creating it. If you have any questions or feedback, please feel free to reach out to me. Happy browsing!
