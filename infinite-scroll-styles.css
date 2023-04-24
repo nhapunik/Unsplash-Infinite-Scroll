@@ -83,8 +83,6 @@ body {
   }
 
   .image:hover {
-    scale: 1.2;
     transition: 1s;
-    border: 2px solid rgb(255, 255, 255);
     border-radius: 0;
   }
