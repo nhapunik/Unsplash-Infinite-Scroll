@@ -69,7 +69,7 @@ function displayImages(images, append = false) {
 window.addEventListener("scroll", () => {
   const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
 
-  if (!isLoading && scrollTop + clientHeight >= scrollHeight - 5) {
+  if (!isLoading && scrollTop + clientHeight >= scrollHeight - 500) {
     const searchBox = document.getElementById("search-box");
     loadMoreImages(searchBox.value);
   }
