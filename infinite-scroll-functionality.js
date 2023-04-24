@@ -9,6 +9,12 @@ document
 const accessKey = "kQaoyz53sG-uxIBAH-wpEEmd8bEYaqjtc_hjGrnxyRw";
 const apiEndpoint = "https://api.unsplash.com/search/photos";
 
+document.getElementById("search-button").addEventListener("click", function () {
+    const searchBox = document.getElementById("search-box");
+    currentPage = 1;
+    searchImages(searchBox.value);
+  });
+
 async function searchImages(query) {
   try {
     const response = await fetch(

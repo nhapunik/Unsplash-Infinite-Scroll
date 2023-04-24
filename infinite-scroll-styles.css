@@ -31,3 +31,15 @@ body {
     max-height: 300px;
     object-fit: cover;
   }
+
+  #search-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  #search-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
