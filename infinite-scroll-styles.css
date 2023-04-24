@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     margin: 0;
     padding: 0;
     background-image: linear-gradient(to right, skyblue, #87CEFA);
@@ -85,4 +85,10 @@ body {
   .image:hover {
     transition: 1s;
     border-radius: 0;
+  }
+
+  @media screen and (max-width: 420px) {
+    .image {
+max-width: 40%;
+    }
   }
